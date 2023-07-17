@@ -1,0 +1,22 @@
+{
+    "name": "attention span killer",
+    "description": "bored reading tos? this extension can help you.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "oversimulate"
+    },
+    "background": {
+        "service_worker": "index.js"
+    },
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon@2x.png",
+        "48": "images/icon@3x.png",
+        "128": "images/icon@4x.png"
+    }
+}
